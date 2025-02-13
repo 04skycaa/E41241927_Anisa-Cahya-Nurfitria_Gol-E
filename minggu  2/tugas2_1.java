@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class tugas2_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String nama;
         int harga, total = 0;
+        String nama;
 
         System.out.println("-------------------------------------------------");
         System.out.println("         Kharisma Agung Plaza ( KAP )           ");
@@ -27,10 +27,15 @@ public class tugas2_1 {
         if (total >= 100000) {
             System.out.println("\nSelamat...");
             System.out.println("Anda mendapat hadiah 1 buah mug cantik");
+        } else {
+            System.out.println("\nMaaf, Anda tidak memenuhi syarat untuk mendapatkan hadiah.");
+            System.out.println("Total belanja minimal Rp 100000,00 untuk mendapatkan hadiah.");
         }
 
         System.out.println("\n-------------------------------------------------");
         System.out.println("              Terima Kasih");
         System.out.println("Anda sudah belanja di Kharisma Agung Plaza");
+
+        scan.close();
     }
 }

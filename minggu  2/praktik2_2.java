@@ -19,6 +19,9 @@ public class praktik2_2 {
             case "hijau":
                 System.out.println("Lampu hijau, silakan jalan!");
                 break;
+            case "biru":
+                System.out.println("Lampu biru, warna kesukaanku");
+                break;
             default:
                 System.out.println("Warna lampu salah!");
         }
